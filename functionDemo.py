@@ -13,8 +13,13 @@ def bigger(a,b):
         print(a)
     else:
         print(b)
+        
+def slope(x1, y1,x2, y2):
+    print((y2-y1)/(x2-x1))
 
 hw()
 double(12)
 double('w')
 bigger(4,3)
+bigger("Stafford", "Heath")
+slope(1,1,2,2)
