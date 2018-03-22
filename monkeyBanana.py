@@ -23,9 +23,11 @@ if __name__ == '__main__':
     
     green = Color(0x006600,1)
     brown = Color(0x8B4513,1)
+    yellow = Color(0xFFFF00,1)
     
     jungleBox = RectangleAsset(CELL_SIZE * COLS, CELL_SIZE*ROWS, LineStyle(1,green), green)
     monkeyBox = RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,brown), brown)
+    bananaBox = RectangleAsset(CELL_SIZE,CELL_SIZE,LineStyle(1,brown), yellow)
     
     Sprite(jungleBox)
     monkey = Sprite(monkeyBox)
