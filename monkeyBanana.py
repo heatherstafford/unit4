@@ -15,9 +15,10 @@ def moveRight(Event):
         moveBanana()
     
 def moveLeft(Event):
-    monkey.x -= CELL_SIZE
-    if monkey.x == banana.x and monkey.y == banana.y:
-        moveBanana()
+    if monkey.x>0:
+        monkey.x -= CELL_SIZE
+        if monkey.x == banana.x and monkey.y == banana.y:
+            moveBanana()
     
 def moveUp(Event):
     monkey.y -= CELL_SIZE
