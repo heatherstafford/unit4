@@ -3,9 +3,10 @@
 #printSquares.py
 
 def squares(c,r):
-    for i in range(0,c+1):
+    for i in range(0,c):
         print((('+--')*(r))+('+'))
         print((('|  ')*r)+('|'))
+    print((('+--')*(r))+('+'))
     
     
 (squares(2,4))
