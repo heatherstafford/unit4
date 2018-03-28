@@ -4,9 +4,9 @@
 
 def squares(c,r):
     for i in range(0,c):
-        print((('+--')*(r))+('+'))
-        print((('|  ')*r)+('|'))
-    print((('+--')*(r))+('+'))
+        print((('+---')*(r))+('+'))
+        print((('|   ')*r)+('|'))
+    print((('+---')*(r))+('+'))
     
     
-(squares(12,12))
+(squares(9,10))
