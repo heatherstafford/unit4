@@ -9,4 +9,4 @@ def squares(c,r):
     print((('+--')*(r))+('+'))
     
     
-(squares(2,4))
+(squares(12,12))
