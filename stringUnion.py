@@ -3,10 +3,10 @@
 #stringUnion.py
 
 def stringunion(word1,word2):
-    for ch in word1:
+    for ch in word1 + word2:
         print(ch)
-    for ca in word2:
-        print(ca)
-    
+    answer = (' ')
+    if ch not in answer:
+        answer = answer + ch
     
 print(stringunion('mississippi', 'pennsylvania'))
