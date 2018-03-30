@@ -4,10 +4,10 @@
 
 def stringIntersect(word1,word2):
     answer = ''
-    for ch in word1 + word2:
-        if ch in answer:
-            answer = answer - ch
+    for ch in word1:
+        if ch in word2 and ch not in answer:
+            answer = answer + ch
     return(answer)
-
-stringIntersect('mississippi', 'pensylvania')
+    
+print(stringIntersect('mississippi', 'pensylvania'))
         
